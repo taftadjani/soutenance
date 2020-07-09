@@ -1,0 +1,59 @@
+* {
+  font-family: 'Montserrat';
+}
+
+.typed-txt{
+  color:#eb8c2d;
+}
+
+section.present .cursor {
+  display: inline-block;
+  width: 3px;
+  height:70px;
+  background-color: #eb8c2d;
+  margin-left: -1.1rem;
+  animation: blink 1s infinite;
+  -webkit-animation: blink 1s infinite;
+}
+
+section.present .typing {
+  animation: none;
+  -webkit-animation: none;
+}
+
+@-webkit-keyframes blink {
+  0% {
+    background-color: #eb8c2d;
+  }
+  45% {
+    background-color: #eb8c2d;
+  }
+  50% {
+    background-color: transparent;
+  }
+  95% {
+    background-color: transparent;
+  }
+  100% {
+    background-color: #eb8c2d;
+  }
+}
+
+@keyframes blink {
+  0% {
+    background-color: #eb8c2d;
+  }
+  45% {
+    background-color: #eb8c2d;
+  }
+  50% {
+    background-color: transparent;
+  }
+  95% {
+    background-color: transparent;
+  }
+  100% {
+    background-color: #eb8c2d;
+  }
+}
+/*# sourceMappingURL=presentation.css.map */
